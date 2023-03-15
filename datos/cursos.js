@@ -8,21 +8,42 @@ let infoCursos = {
             nivel: "basico"
         },
         {
-            id:2,
+            id:10,
             titulo: "Aprende JavaScript",
-            lenguaje: "javaScript",
+            lenguaje: "javascript",
             vistas: 18029,
             nivel: "basico"
         },
         {
-            id:3,
+            id:11,
+            titulo: "Estructuras de datos con Javascript",
+            lenguaje: "javascript",
+            vistas: 9510,
+            nivel: "basico"
+        },
+        {
+            id:12,
+            titulo: "Consumo de una API con Javascript",
+            lenguaje: "javascript",
+            vistas: 10010,
+            nivel: "intermedio"
+        },
+        {
+            id:13,
+            titulo: "Manipulacion del DOM",
+            lenguaje: "javascript",
+            vistas: 7890,
+            nivel: "intermedio"
+        },
+        {
+            id:20,
             titulo: "Aprende Java",
             lenguaje: "java",
             vistas: 10292,
             nivel: "basico"
         },
         {
-            id:4,
+            id:21,
             titulo: "Java POO",
             lenguaje: "java",
             vistas: 12394,
@@ -41,8 +62,8 @@ let infoCursos = {
         {
             id:2,
             titulo: "Mecanica l",
-            academia: "ciencia y tecnologia",
-            tema: "fisica",
+            academia: "fisica",
+            tema: "cyt",
             vistas: 11329,
             nivel: "basico"
         },
