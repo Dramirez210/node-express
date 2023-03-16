@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/cursos', (req, res) => {
-    res.send(JSON.stringify(infoCursos));
+    res.send(infoCursos);
 });
 
 const PUERTO = process.env.PORT || 3000;

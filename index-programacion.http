@@ -1,0 +1,39 @@
+POST http://localhost:3000/api/cursos/programacion HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":14,
+    "titulo": "Javascript vanilla",
+    "lenguaje": "javascript",
+    "vistas": 30589,
+    "nivel": "basico"
+}
+
+###
+
+PUT http://localhost:3000/api/cursos/programacion/10 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":10,
+    "titulo": "Javascript para principiantes",
+    "lenguaje": "javascript",
+    "vistas": 37891,
+    "nivel": "basico"
+}
+
+
+###
+
+PATCH http://localhost:3000/api/cursos/programacion/10 HTTP/1.1
+Content-Type: application/json
+
+{
+    "vistas": 40923,
+    "nivel": "principiantes"
+}
+
+###
+
+DELETE http://localhost:3000/api/cursos/programacion/1 HTTP/1.1
+

@@ -73,6 +73,22 @@ let infoCursos = {
             academia: "ciencia y tecnologia",
             tema: "integrales",
             vistas: 8091,
+            nivel: "avanzado"
+        },
+        {
+            id:4,
+            titulo: "Calculo diferencial",
+            academia: "ciencia y tecnologia",
+            tema: "derivadas",
+            vistas: 10890,
+            nivel: "basico"
+        },
+        {
+            id:5,
+            titulo: "Calculo Integral",
+            academia: "ciencia y tecnologia",
+            tema: "integrales",
+            vistas: 9876,
             nivel: "intermedio"
         },
     ]
